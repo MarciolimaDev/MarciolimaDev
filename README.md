@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Márcio Lima
+- 👋 Olá, muito prazer! Sou Márcio Lima.
 - 👀 Tenho interesse nas áreas de Front e Back-end, sendo que também sou Designer Gráfico.
 - 🌱 Atualmente estou focando na linguagem de Programação JavaScript.
 - 💞️ Tenho minha mente aberta a novos projetos e desafios que venha a enfretar.
