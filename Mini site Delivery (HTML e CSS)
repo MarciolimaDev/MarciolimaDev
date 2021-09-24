@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburgueria</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#111;
+    background-image: url(../images/backgroundGeral.gif);
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+}
+
+body:before{
+    content: "";
+    position: fixed;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+
+    filter        : blur(8px);
+    -moz-filter   : blur(8px);
+    -webkit-filter: blur(8px);
+    -o-filter     : blur(8px);
+}
+
+.container{
+    background-color: crimson;
+    width: 609px;
+    max-width: 610px;
+    margin: auto;
+    min-height: 100%;
+}
+
+.banner--inicial{
+    background-image: url(../images/bannergeralnovo.gif);
+    background-position: center top;
+    background-size: 100%;
+    position: relative;
+    z-index: 1;
+    border: 1px solid rgba(0, 0, 0, 0.65);
+    padding-top: 60px;
+    filter: none;
+}
+
+.banner--inicial img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+.banner--inicial h1{
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 200px;
+}
+
+
+.banner--buttom{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.buttom a{
+    display: inline-block ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.81);
+    text-align: center;
+    margin-right: 10px;
+}
+
+.buttom a .buttom-prt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.area--combo{
+    background-color: #000;
+    padding: 40px;
+}
+
+.area--combo .video-combo img{
+    max-width: 100%;
+    width: auto;
+}
+
+.area--combo .name-combo{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.name-combo h2{
+    font-size: 40px;
+}
+
+.name-combo p{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.name-combo .buttom-compra{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #32bb51;
+    cursor: pointer;
+}
+
+.area--produtos{
+    background-color: #900404;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.produto{
+    padding: 20px;
+}
+.area--produtos .produto img{
+    width: 200px;
+    height: 200px;
+}
+
+.produto h3{
+    color: #fff;
+    font-size: 20px;
+}
+
+.produto p{
+    color: #fff;
+    font-size: 40px;
+}
+
+.produto ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.produto li{
+    color: #fff;
+    font-size: 20px;
+}
+
+.produto a{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    background-color: #32bb51;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.dark{
+    background-color: #000;
+    border-top: 5px solid #900404;
+    justify-content: center;
+    align-items: center;
+}
+
+</head>
+<body>
+    <div class="container">
+      <header class="header--banner">
+          
+
+            <div class="banner--inicial">
+              <img src="assets/images/imagevazia.png" alt="">
+              <h1>GANHE 10% DE DESCONTO UTILIZANDO NOSSO SITE</h1>
+              <div class="banner--buttom">
+
+                <div class="buttom">
+                  <a href="https://api.whatsapp.com/send?phone=5514997578101" class="buttom-geral" target="_blank">
+                  <div class="buttom-prt2">
+                    <span class="icon-whatsapp"><i class="fab fa-whatsapp"></i></span>
+                    <span class="label">Whatsapp</span>
+                  </div>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          
+      </header>
+
+
+      <section class="section--combo">
+        <div class="container area--combo">
+          <div class="video-combo">
+            <img src="assets/images/combonovo.gif" alt="">
+          </div>
+
+          <div class="name-combo">
+            <h2>Combo 01 - X BACON</h2>
+            <P>R$59,90</P>
+            <a href="" class="buttom-compra">Quero este Combo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--produtos">
+        <div class="container area--produtos">
+          <div class="produto">
+            <img src="assets/images/CHEESE-BURGUER.png" alt="">
+            <h3>CHEESE BURGUER</h3>
+            <p>R$19,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Pão</li>
+              <li><i class="fas fa-check-circle"></i> Mussarela</li>
+              <li><i class="fas fa-check-circle"></i> Presunto</li>
+              <li><i class="fas fa-check-circle"></i> Alfase</li>
+              <li><i class="fas fa-check-circle"></i> Tomate</li>
+              <li><i class="fas fa-check-circle"></i> Ovo</li>
+              <li><i class="fas fa-check-circle"></i> Picles</li>
+              <li><i class="fas fa-check-circle"></i> Muito Cheddar</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+
+          <div class="produto">
+            <img src="assets/images/CHEESE-CHICHEN.png" alt="">
+            <h3>CHEESE CHICHEN</h3>
+            <p>R$19,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Pão</li>
+              <li><i class="fas fa-check-circle"></i> Mussarela</li>
+              <li><i class="fas fa-check-circle"></i> Presunto</li>
+              <li><i class="fas fa-check-circle"></i> Alfase</li>
+              <li><i class="fas fa-check-circle"></i> Tomate</li>
+              <li><i class="fas fa-check-circle"></i> Cebola Roxa</li>
+              <li><i class="fas fa-check-circle"></i> Frango Empanado</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--combo">
+        <div class="container area--combo">
+          <div class="video-combo">
+            <img src="assets/images/combonovo.gif" alt="">
+          </div>
+
+          <div class="name-combo">
+            <h2>Combo 02 - X Hamburgão</h2>
+            <P>R$79,90</P>
+            <a href="" class="buttom-compra">Quero este Combo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--produtos">
+        <div class="container area--produtos">
+          <div class="produto">
+            <img src="assets/images/CHEESE-BURGUER.png" alt="">
+            <h3>O GRANDÃO 400G DE CARNE</h3>
+            <p>R$24,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Pão</li>
+              <li><i class="fas fa-check-circle"></i> Mussarela</li>
+              <li><i class="fas fa-check-circle"></i> Presunto</li>
+              <li><i class="fas fa-check-circle"></i> Alfase</li>
+              <li><i class="fas fa-check-circle"></i> Tomate</li>
+              <li><i class="fas fa-check-circle"></i> Carne de 400g</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+
+          <div class="produto">
+            <img src="assets/images/CHEESE-CHICHEN.png" alt="">
+            <h3>X-BACON</h3>
+            <p>R$19,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Pão</li>
+              <li><i class="fas fa-check-circle"></i> Mussarela</li>
+              <li><i class="fas fa-check-circle"></i> Presunto</li>
+              <li><i class="fas fa-check-circle"></i> Alfase</li>
+              <li><i class="fas fa-check-circle"></i> Tomate</li>
+              <li><i class="fas fa-check-circle"></i> Ovo</li>
+              <li><i class="fas fa-check-circle"></i> Muito Bacon</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--combo">
+        <div class="container area--combo">
+          <div class="video-combo">
+            <img src="assets/images/combonovo.gif" alt="">
+          </div>
+
+          <div class="name-combo">
+            <h2>Combo 03 - X A sua escolha</h2>
+            <P>R$89,90</P>
+            <a href="" class="buttom-compra">Quero este Combo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--produtos">
+        <div class="container area--produtos">
+          <div class="produto">
+            <img src="assets/images/hamburguer.png" alt="">
+            <h3>HAMBURGUER</h3>
+            <p>R$19,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Pão com Gergilim</li>
+              <li><i class="fas fa-check-circle"></i> Mussarela</li>
+              <li><i class="fas fa-check-circle"></i> Presunto</li>
+              <li><i class="fas fa-check-circle"></i> Duas Carnes</li>
+              <li><i class="fas fa-check-circle"></i> Alface</li>
+              <li><i class="fas fa-check-circle"></i> Tomate</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+
+          <div class="produto">
+            <img src="assets/images/CHEESE-TUDO.png" alt="">
+            <h3>CHEESE TUDO</h3>
+            <p>R$29,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Pão</li>
+              <li><i class="fas fa-check-circle"></i> Mussarela</li>
+              <li><i class="fas fa-check-circle"></i> Presunto</li>
+              <li><i class="fas fa-check-circle"></i> Alfase</li>
+              <li><i class="fas fa-check-circle"></i> Tomate</li>
+              <li><i class="fas fa-check-circle"></i> Cebola</li>
+              <li><i class="fas fa-check-circle"></i> Ovo</li>
+              <li><i class="fas fa-check-circle"></i> Bacon</li>
+              <li><i class="fas fa-check-circle"></i> Frango</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--produtos">
+        <div class="container area--produtos dark">
+          <div class="produto ">
+            <img src="assets/images/coca-cola2l.png" alt="">
+            <h3>COCA 2L</h3>
+            <p>R$8,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> COCA 2L</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+
+          <div class="produto">
+            <img src="assets/images/fanata-laranja2l.png" alt="">
+            <h3>FANTA 2L</h3>
+            <p>R$8,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> FANTA 2L</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--produtos">
+        <div class="container area--produtos dark">
+          <div class="produto ">
+            <img src="assets/images/fantalata.png" alt="">
+            <h3>FANTA LATA 350ML</h3>
+            <p>R$4,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> FANTA LATA 350ML</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+
+          <div class="produto">
+            <img src="assets/images/cocalata.png" alt="">
+            <h3>COCA-COLA LATA DE 350ML</h3>
+            <p>R$4,90</p>
+
+            <ul>
+              <li><i class="fas fa-check-circle"></i> COCA-COLA LATA DE 350ML</li>
+            </ul>
+
+            <a href="" class="buttom-compra2">Quero este</a>
+          </div>
+        </div>
+      </section>
+    </div>
+</body>
+</html>
