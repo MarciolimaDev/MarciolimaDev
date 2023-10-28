@@ -1,6 +1,9 @@
 - 👋 Olá, muito prazer! Sou Márcio Lima.
+- ✨ Atualmente estou cursando Análise e Desenvolvimento de Sistemas (IFAC).
 - 👀 Tenho interesse nas áreas de Front e Back-end, sendo que também sou Designer Gráfico.
-- 🌱 Atualmente estou focando na linguagem de Programação JavaScript.
+- 🌱 Atualmente estou focando na linguagem de Programação Python.
+- 🌱 Tenho conhecimentos de automações webscrapping.
+- 🌱 Conhecimento em desevolvimento web com framework Flask e Django.
 - 💞️ Tenho minha mente aberta a novos projetos e desafios que venha a enfretar.
 - 📫  Tenho alguns canais para quem deseja conhecer mais sobre mim e me contactar.
 
